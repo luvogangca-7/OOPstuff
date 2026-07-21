@@ -1,10 +1,12 @@
-﻿namespace OOPClassExercise
+﻿using OOPClassExercise.Encapsulation;
+
+namespace OOPClassExercise
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            EncapsulationSample.Run();
         }
     }
 }

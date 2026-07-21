@@ -4,11 +4,9 @@ using System.Text;
 
 namespace OOPClassExercise.Encapsulation
 {
-    public enum AccountType
+    internal enum TransactionType
     {
-        Savings,
-        Cheque,
-        Credit,
-        Current
+        Withdrawal,
+        Deposit
     }
 }
