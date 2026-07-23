@@ -6,5 +6,6 @@ namespace OOPClassExercise.Abstraction
 {
     internal class Rhombus
     {
+
     }
 }

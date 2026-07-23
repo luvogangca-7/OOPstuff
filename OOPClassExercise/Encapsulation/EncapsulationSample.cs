@@ -12,7 +12,7 @@ namespace OOPClassExercise.Encapsulation
                 BankAccount bankAccount = new BankAccount(12345, "John Dube", AccountType.Savings, 680000, "4242424242424242", DateTime.Now);
 
                 Console.WriteLine($"Welcome {bankAccount.AccountHolder}");
-                Console.WriteLine($"Your balance is {bankAccount.Balance}");
+                Console.WriteLine($"Your balance is {bankAccount.Balance:C}");
                 Console.WriteLine($"-------------------------------------");
 
                 bool exitApp = false;

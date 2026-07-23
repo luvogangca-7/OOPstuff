@@ -14,7 +14,7 @@ namespace OOPClassExercise.Abstraction
         }
         public override double GetArea()
         {
-            return 3.14 * radius * radius;
+            return Math.PI * Math.Pow(radius, 2);
         }
     }
 }
